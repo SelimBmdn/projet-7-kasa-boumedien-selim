@@ -1,15 +1,17 @@
 import '../styles/Card.css'
 
-function Card () 
+function Card ({location}) 
 
 {
-
-    return ( 
+    
+    return  ( 
         <div className='kasa-card'>
             <img src="" alt="Image card "/>
-            <h3>Titre card</h3>
+            <h3>{location.title}</h3>
+            <p>{location.description}</p>
         </div>
     )
+
 }
 
 export default Card

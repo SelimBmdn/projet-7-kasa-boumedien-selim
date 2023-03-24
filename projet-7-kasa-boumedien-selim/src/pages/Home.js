@@ -10,8 +10,7 @@ export default function Home() {
 		<div className='home'>
 			<Header />
 			<Banner />
-			<All_cards />
-            
+			<All_cards />           
 			<Footer />
 		</div>
 	)
