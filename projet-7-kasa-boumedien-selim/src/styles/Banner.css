@@ -1,0 +1,37 @@
+/* Banner*/
+
+.kasa-banner{
+    position: absolute;
+width: 1240px;
+height: 223px;
+top: 171px;
+
+    /*position: absolute;
+    display: flex;
+    width: 1240px;
+    height: 30%;
+    /* right: 10%; */
+    left: 10%;
+    top: 20%;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+ display: flex;
+ text-align: center;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 142.6%;
+/* or 68px */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF
+}

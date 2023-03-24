@@ -3,6 +3,7 @@ import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './components/App';
+import Home from './pages/Home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +12,7 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element = {<App />}/>   
-        <Route path='/test' element = {<App />}/>    
+        <Route path='/Home' element = {<Home />}/>    
       </Routes>
     </Router>
   </React.StrictMode>

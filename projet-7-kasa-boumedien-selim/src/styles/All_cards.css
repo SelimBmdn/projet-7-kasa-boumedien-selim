@@ -1,0 +1,10 @@
+.all_cards{
+    
+    position: absolute;
+width: 1240px;
+height: 829px;
+left: 10%;
+top: 437px;
+background: #F7F7F7;
+border-radius: 25px;
+}
