@@ -6,18 +6,23 @@ width: 340px ;
 height: 340px;
 border-radius:10px;
 background: #FF6060;
-border-radius: 10px;
+margin: 2%;
+display: inline-grid;
+justify-items: center;
+
 }
-;
+
+
+
 img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    
     object-fit: cover;
     object-position: center;
     transition: transform 0.2s ease-in-out;
     will-change: transform;
-};
-
+}
+;
 h3{
     z-index: 20;
     position: absolute;
@@ -28,4 +33,12 @@ h3{
     font-size: clamp(12px, 3vw, 18px);
     
 }
+/* Tablette */
+@media screen and (max-width: 1024px){
 
+} ;
+
+/* Mobile */
+@media screen and (max-width: 768px){
+
+}

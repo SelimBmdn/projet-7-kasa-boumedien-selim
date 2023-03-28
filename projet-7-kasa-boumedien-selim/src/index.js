@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './components/App';
 import Home from './pages/Home';
+import ErrorPage from './pages/ErrorPage';
+import About from './pages/About';
+import Logement from './pages/FicheLogement'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +15,10 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element = {<App />}/>   
-        <Route path='/Home' element = {<Home />}/>    
+        <Route path='/Home' element = {<Home />}/>
+        <Route path='/About' element = {<About />}/>
+        <Route path='/Logement/:id' element = {<Logement />}/>
+        <Route path='/*' element = {<ErrorPage />}/>    
       </Routes>
     </Router>
   </React.StrictMode>

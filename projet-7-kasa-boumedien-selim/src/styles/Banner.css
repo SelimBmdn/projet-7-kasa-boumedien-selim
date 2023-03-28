@@ -1,18 +1,10 @@
 /* Banner*/
 
 .kasa-banner{
-    position: absolute;
-width: 1240px;
-height: 223px;
-top: 171px;
-
-    /*position: absolute;
-    display: flex;
-    width: 1240px;
-    height: 30%;
-    /* right: 10%; */
-    left: 10%;
-    top: 20%;
+    width: 90%;
+    height: 228px;
+    margin-right: 10%;
+    margin-left: 10%;
     display: flex;
     background-color: aquamarine;
     align-items: center;
@@ -29,9 +21,19 @@ font-weight: 500;
 font-size: 48px;
 line-height: 142.6%;
 /* or 68px */
-
 display: flex;
 align-items: flex-end;
-
 color: #FFFFFF
-}
+};
+
+
+
+/* Tablette */
+@media screen and (max-width: 1024px){
+
+} ;
+
+/* Mobile */
+@media screen and (max-width: 768px){
+
+} ;

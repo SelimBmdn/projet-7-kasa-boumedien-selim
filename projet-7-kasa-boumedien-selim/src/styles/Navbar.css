@@ -1,20 +1,14 @@
 /* _Nav */
 .nav_list {
-    width: 309px ;
+width: 309px ;
 height: 34px;
-position: absolute;
-left: 75.08%;
-right: 0%;
-top: 25%;
-bottom: 25%;
+display: flex;
+justify-content: space-around;
 color:  #FF6060;
 } 
 
 .btn-home{
-    position: absolute;
-left: 15%;
-top: 25%;
-bottom: 25%;
+
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
@@ -28,10 +22,7 @@ color: #FF6060;
 }
 
 .btn-about {
-    position: absolute;
-right: 15%;
-top: 25%;
-bottom: 25%;
+
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;

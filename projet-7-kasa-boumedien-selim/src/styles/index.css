@@ -1,0 +1,9 @@
+*{ 
+  box-sizing: border-box;
+  /*font-family: 'Roboto', sans-serif;*/
+  list-style-type: none;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  color: inherit;
+}

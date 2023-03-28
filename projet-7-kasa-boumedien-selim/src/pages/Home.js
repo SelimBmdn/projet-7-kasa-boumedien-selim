@@ -1,4 +1,5 @@
 import '../styles/Home.css'
+//import '../styles/normalize.css'
 import Header from '../components/Header'
 import Banner from '../components/Banner'
 import All_cards from '../components/All_cards'
