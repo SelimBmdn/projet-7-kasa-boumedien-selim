@@ -1,12 +1,16 @@
 import '../styles/Banner.css'
+/*import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
-import img_banner from '../assets/img-banner.png'
+import imgBannerHome from '../assets/img-banner-home.png'*/
 
 function Banner () {
 
+    
+
     return ( 
         <div className='kasa-banner'>
-            <img src="{img_banner}" alt="Image banner" />
+            <img src="" alt="" />
             <h1>Chez vous, partout et ailleurs</h1>
         </div>
     )

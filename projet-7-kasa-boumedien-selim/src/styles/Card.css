@@ -5,33 +5,32 @@
 width: 340px ;
 height: 340px;
 border-radius:10px;
-background: #FF6060;
+/*background: #FF6060;*/
 margin: 2%;
 display: inline-grid;
 justify-items: center;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 
 }
 
 
 
-img{
-    max-width: 100%;
-    
+.kasa-card img{
+    /*max-width: 100%; */
+    width: 340px;   
+    height: 340px;
     object-fit: cover;
     object-position: center;
     transition: transform 0.2s ease-in-out;
     will-change: transform;
+    border-radius: 10px;
 }
-;
-h3{
+
+.kasa-card h3{
     z-index: 20;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
     font-weight: 500;
     font-size: clamp(12px, 3vw, 18px);
-    
+    color: white;
 }
 /* Tablette */
 @media screen and (max-width: 1024px){

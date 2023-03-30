@@ -6,4 +6,10 @@
     background: #F7F7F7;
     border-radius: 25px;
     overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
