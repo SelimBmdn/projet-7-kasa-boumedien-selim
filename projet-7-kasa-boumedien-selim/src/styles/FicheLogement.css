@@ -71,6 +71,12 @@ text-align: right;
     margin: 10px;
 }
 
+.stars {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .allElements {
     display: flex;
     align-items: center;

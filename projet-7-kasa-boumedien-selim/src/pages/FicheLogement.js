@@ -53,6 +53,13 @@ export default function Logement() {
                 </div>
 
                 <div className='stars'>
+                {[...Array(5)].map((_star, index) => {
+								const ratingValue = index + 1;
+								return (
+									<img key={index} src={ratingValue <= logement.rating ? redStar : greyStar} alt="star" />
+								)
+							})}
+
 
                 </div>
             </div>
