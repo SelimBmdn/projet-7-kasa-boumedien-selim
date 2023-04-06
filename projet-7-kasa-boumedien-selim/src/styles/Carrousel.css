@@ -1,0 +1,35 @@
+.cover {
+    position: relative;
+  }
+  
+  .cover_img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .allArrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   /* max-width: 600px;*/
+  }
+  
+  .arrowLeft, .arrowRight {
+    width: 30px;
+    height: 50px;
+  }
+  
+  .arrowLeft {
+    margin-right: auto;
+  }
+  
+  .arrowRight {
+    margin-left: auto;
+  }

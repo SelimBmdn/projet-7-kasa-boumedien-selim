@@ -1,14 +1,18 @@
 import '../styles/FicheLogement.css'
 import Header from '../components/Header'
-/*import Banner from '../components/Banner'*/
 import Footer from '../components/Footer'
 import datas from '../datas/data'
 import { useParams, Navigate } from 'react-router-dom'
-import arrowLeft from '../assets/chevron_carousel_left.png'
-import arrowRight from '../assets/chevron_carousel_right.png'
+//import { useEffect, useState } from "react"
+import Carrousel from '../components/Carrousel'
+import Collapse from '../components/Collapse';
+import greyStar from '../assets/grey_star.png';
+import redStar from '../assets/red_star.png';
 
 
 export default function Logement() {
+
+
 
 
     const { id } = useParams()
@@ -19,7 +23,7 @@ export default function Logement() {
             break
         }
     }
-    console.log(logement)
+
     if (!logement) {
         return <Navigate to="/404" />
     }
@@ -27,38 +31,42 @@ export default function Logement() {
     return (
         <div className='logement'>
             <Header />
-            <div className='cover'>
-                <img src={logement.cover} className="cover_img" alt="logo"></img>
-                <div className='allArrow'>
-                    <img src={arrowLeft} className="arrowLeft" alt=""></img>
-                    <img src={arrowRight} className="arrowRight" alt=""></img>
-                </div>
+            <Carrousel />
 
-            </div>
-
+        <div className='allElements'>
             <div className='titleAndLocation'>
                 <h2>{logement.title}</h2>
                 <p>{logement.location}</p>
+
+
                 <div className='tags'>
-                {logement.tags}
-            </div>
-            </div>
-
-            <div className='nameAndPp'>
-                {logement.host.name}
-                <img src={logement.host.picture} alt=""></img>
-            </div>
-
-            <div className='stars'>
+                    {logement.tags}
+                </div>
 
             </div>
+            <div className='allNameAndStars'>
+                <div className='nameAndPp'>
+                    <div className='name'>
+                    {logement.host.name}
+                    </div>
+                    <img src={logement.host.picture} alt=""></img>
+                </div>
 
+                <div className='stars'>
+
+                </div>
+            </div>
+
+</div>
+
+        <div className='allCollapse'>
             <div className='description'>
-
+            <Collapse />
             </div>
             <div className='equipements'>
-
+            <Collapse />
             </div>
+        </div>
 
             <Footer />
         </div>

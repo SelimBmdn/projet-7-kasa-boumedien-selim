@@ -12,20 +12,46 @@
     color: #FFFFFF;
     padding-left: 2%;
     padding-right: 3%;
-    
-} 
+    margin-bottom: inherit;
+
+}
 
 .collapse_content {
     background: #F7F7F7;
     border-radius: 5px;
     height: 146px;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 142.6%;
-/* or 34px */
-color: #FF6060;
-   
-} ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+    color: #FF6060;
+    
+}
 
+
+.collapse_title {
+    cursor: pointer;
+  }
+  
+  .arrow_logo {
+    height: 20px;
+    width: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .arrow_logo.open {
+    transform: rotate(180deg);
+  }
+  
+  .collapse_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .collapse_content.open {
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+  } 
