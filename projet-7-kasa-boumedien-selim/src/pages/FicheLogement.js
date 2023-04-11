@@ -68,10 +68,10 @@ export default function Logement() {
 
         <div className='allCollapse'>
             <div className='description'>
-            <Collapse />
+            <Collapse title={'Description'} content={logement.description} />
             </div>
             <div className='equipements'>
-            <Collapse />
+            <Collapse title={'Equipements'} content={logement.equipments}/>
             </div>
         </div>
 
