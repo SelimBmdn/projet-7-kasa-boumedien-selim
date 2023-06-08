@@ -33,3 +33,8 @@
   .arrowRight {
     margin-left: auto;
   }
+
+  .carousel-slide-item img {
+    width: 100%;
+    object-fit: cover;
+  }

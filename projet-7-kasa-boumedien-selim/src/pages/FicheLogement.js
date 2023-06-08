@@ -12,9 +12,6 @@ import redStar from '../assets/red_star.png';
 
 export default function Logement() {
 
-
-
-
     const { id } = useParams()
     let logement = null
     for (let data of datas) {
@@ -40,7 +37,7 @@ export default function Logement() {
 
 
                 <div className='tags'>
-                    {logement.tags}
+                    {logement.tags.join(" ")}
                 </div>
 
             </div>
@@ -71,7 +68,7 @@ export default function Logement() {
             <Collapse title={'Description'} content={logement.description} />
             </div>
             <div className='equipements'>
-            <Collapse title={'Equipements'} content={logement.equipments}/>
+            <Collapse title={'Equipements'} content={logement.equipments.join(" ")} />
             </div>
         </div>
 

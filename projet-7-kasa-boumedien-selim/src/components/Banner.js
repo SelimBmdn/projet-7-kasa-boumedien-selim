@@ -1,19 +1,26 @@
 import '../styles/Banner.css'
-/*import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-import imgBannerHome from '../assets/img-banner-home.png'*/
 
 function Banner () {
 
-    
+	const [aboutPage, setAboutPage] = useState(false);
 
-    return ( 
-        <div className='kasa-banner'>
-            <img src="" alt="" />
-            <h1>Chez vous, partout et ailleurs</h1>
-        </div>
-    )
+	const location = useLocation();
+	
+	useEffect(() => {
+		if(location.pathname === '/about'){
+			setAboutPage(true)
+		};
+		// eslint-disable-next-line
+	}, [])
+
+	return (
+		<section className={aboutPage ? 'banner_about' : 'banner'}>
+			{!aboutPage && <p>Chez vous, partout et ailleurs</p>}
+		</section>
+	)
 }
 
 export default Banner

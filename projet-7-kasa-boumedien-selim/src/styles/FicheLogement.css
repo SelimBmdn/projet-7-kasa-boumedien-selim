@@ -81,3 +81,16 @@ text-align: right;
     display: flex;
     align-items: center;
 }
+
+.allCollapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 45%;
+}
+
+.equipements {
+    width: 45%;
+}
