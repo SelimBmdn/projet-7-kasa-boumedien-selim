@@ -71,11 +71,9 @@
     flex-direction: column;
     align-items: center;
   }
-
   .description {
     width: 95%;
   }
-
   .equipements {
     width: 95%;
   }

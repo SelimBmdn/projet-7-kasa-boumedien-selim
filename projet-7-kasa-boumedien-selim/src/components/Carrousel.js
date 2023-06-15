@@ -34,7 +34,7 @@ function Carrousel () {
   return (
     <div className="carousel">
       {logement.pictures && logement.pictures.length > 0 && (
-        <div className="carousel-slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+        <div className="carousel-slide" /*style={{ transform: `translateX(-${currentSlide * 100}%)` }}*/>
           {logement.pictures.map((picture, index) => (
             <div key={index} className="carousel-slide-item" style={{ display: currentSlide === index ? 'block' : 'none' }}>
               <img src={picture} alt={`Slide ${index}`} />

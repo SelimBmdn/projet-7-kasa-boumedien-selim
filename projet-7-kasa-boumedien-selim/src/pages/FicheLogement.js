@@ -36,7 +36,7 @@ export default function Logement() {
                 <p>{logement.location}</p>
 
 
-                <div className='tags'>
+                <div className='tags'>                  
                     {logement.tags.join(" ")}
                 </div>
 
