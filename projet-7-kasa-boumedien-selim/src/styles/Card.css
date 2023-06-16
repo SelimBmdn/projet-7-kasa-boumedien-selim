@@ -41,9 +41,10 @@ flex-direction: column;
 /* Tablette */
 @media screen and (max-width: 1024px){
 
-} ;
+} 
 
 /* Mobile */
 @media screen and (max-width: 768px){
 
+   
 }

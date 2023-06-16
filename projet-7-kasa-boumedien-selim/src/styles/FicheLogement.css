@@ -94,3 +94,35 @@ text-align: right;
 .equipements {
     width: 45%;
 }
+
+  /* Tablette */
+  @media screen and (max-width: 1024px){
+
+  } 
+  
+  /* Mobile */
+  @media screen and (max-width: 768px){
+  
+    .allElements {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .allNameandStars {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nameAndPp img {
+        border-radius: 100px;
+        width: 35%;
+    }
+    .description {
+      width: 95%;
+    }
+    .equipements {
+      width: 95%;
+    }
+
+  } 
