@@ -58,3 +58,20 @@
   .carousel-controls img {
     height: 100%;
   }
+  /* Tablette */
+@media screen and (max-width: 768px){
+
+} 
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+  .carousel-slide-item img {
+    
+    object-fit: cover;
+    border-radius: 10px;
+    height: 255px;
+}
+
+   
+}

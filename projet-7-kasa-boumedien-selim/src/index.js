@@ -2,7 +2,6 @@ import React from 'react';
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
-import App from './components/App';
 import Home from './pages/Home';
 import ErrorPage from './pages/ErrorPage';
 import About from './pages/About';
@@ -14,7 +13,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path='/' element = {<App />}/>   
+        <Route path='/' element = {<Home />}/>   
         <Route path='/Home' element = {<Home />}/>
         <Route path='/About' element = {<About />}/>
         <Route path='/Logement/:id' element = {<Logement />}/>

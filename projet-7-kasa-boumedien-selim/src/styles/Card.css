@@ -39,12 +39,20 @@ flex-direction: column;
     
 }
 /* Tablette */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
 } 
 
 /* Mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
+    .kasa-card {
+        height: 225px;
+        display: flex;
+        margin-bottom: 20%;
+    }
+    .kasa-card img {
+        width: 335px;
+    }
 
    
 }

@@ -34,3 +34,27 @@ align-items: flex-end;
 text-align: right;
 color: #FF6060;
 }
+
+  /* Tablette */
+  @media screen and (max-width: 768px){
+
+  } 
+  
+  /* Mobile */
+  @media screen and (max-width: 480px){
+
+    .nav_list {
+        display: flex;
+        justify-content: flex-end;
+    }
+  
+    .btn-home{
+        font-size: 20px;
+   
+        }
+        
+        .btn-about {
+            font-size: 20px;
+            margin-left: 5%;
+        }
+  }

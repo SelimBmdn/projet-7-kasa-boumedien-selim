@@ -101,27 +101,40 @@ text-align: right;
 }
 
   /* Tablette */
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 768px){
 
   } 
   
   /* Mobile */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 480px){
   
     .allElements {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .allNameandStars {
+
+    .titleAndLocation h2 {
+        font-size: x-large;
+        margin: inherit;
+    }
+    .allNameAndStars {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
+    }
+    .stars {
+        height: 15px;
+    }
+    .nameAndPp {
+        
     }
     .nameAndPp img {
-        border-radius: 100px;
-        width: 35%;
+        border-radius: 50px;
+        height: 33px;
+        object-fit: cover;
     }
     .description {
       width: 95%;

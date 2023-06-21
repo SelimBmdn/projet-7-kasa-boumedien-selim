@@ -1,9 +1,9 @@
 .all_cards{
     
     height: 829px;
-    width: 90%;
+    width: 100%;
     margin-top: 5%;
-    background: #F7F7F7;
+    background: #F6F6F6;
     border-radius: 25px;
     overflow: hidden;
     overflow-y: scroll;
@@ -15,12 +15,12 @@
 }
 
 /* Tablette */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
 } 
 
 /* Mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
 
     .all_cards {
         background: none;

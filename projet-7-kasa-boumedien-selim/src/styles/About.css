@@ -1,25 +1,26 @@
 .page_about_kasa {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .about_main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 65%;
 }
 
   /* Tablette */
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 768px){
 
   } 
   
   /* Mobile */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 480px){
     .about_main {
         width: 90%;
     

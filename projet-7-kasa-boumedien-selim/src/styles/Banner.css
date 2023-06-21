@@ -9,7 +9,7 @@
     background-size: cover;
     height: 100%;
     padding: 20px;
-    width: 90%;
+    width: 100%;
 }
 .banner_about
      {
@@ -25,19 +25,29 @@
         color: white;
         font-size : clamp(20px, 4vw, 48px);
         font-weight : 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
 
 
 
 /* Tablette */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
 } 
 
 /* Mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     .banner {
         width: 335px;
+        border-radius: 10px;
+        height: 111px;
+    }
+
+    .banner p {
+
+
     }
 } ;

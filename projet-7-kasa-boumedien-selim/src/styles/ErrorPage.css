@@ -42,3 +42,14 @@ align-items: flex-end;
 text-decoration-line: underline;
 color: #FF6060;
 } 
+
+  /* Tablette */
+  @media screen and (max-width: 768px){
+
+  } 
+  
+  /* Mobile */
+  @media screen and (max-width: 480px){
+  
+     
+  }

@@ -57,18 +57,19 @@
     overflow-y: scroll;
     
   } 
-
-  /* Tablette */
-@media screen and (max-width: 1024px){
+/* Tablette */
+@media screen and (max-width: 768px){
 
 } 
 
 /* Mobile */
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 480px){
   .allCollapse {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-} 
+   
+}
+
+ 

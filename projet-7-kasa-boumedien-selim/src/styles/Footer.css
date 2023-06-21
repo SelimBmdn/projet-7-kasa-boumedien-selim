@@ -13,12 +13,13 @@ color: white;
 }
 
 
-/* Tablette */
-@media screen and (max-width: 1024px){
+  /* Tablette */
+  @media screen and (max-width: 768px){
 
-} 
-
-/* Mobile */
-@media screen and (max-width: 768px){
-
-}
+  } 
+  
+  /* Mobile */
+  @media screen and (max-width: 480px){
+  
+     
+  }
