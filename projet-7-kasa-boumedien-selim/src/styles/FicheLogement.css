@@ -1,4 +1,9 @@
-
+.logement {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .titleAndLocation {
     display: flex;
     flex-direction: column;

@@ -33,19 +33,28 @@
   .arrowRight {
     margin-left: auto;
   }
-/*
+
   .carousel {
     position: relative;
   }
-*/
+
   .carousel-slide-item img {
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
+    height: 415px;
   }
 
   .carousel-controls {
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    height: 15%;
 
+  }
+
+  .carousel-controls img {
+    height: 100%;
   }

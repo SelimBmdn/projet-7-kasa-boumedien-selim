@@ -13,3 +13,17 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/* Tablette */
+@media screen and (max-width: 1024px){
+
+} 
+
+/* Mobile */
+@media screen and (max-width: 768px){
+
+    .all_cards {
+        background: none;
+        width: 335px;
+    }
+}
