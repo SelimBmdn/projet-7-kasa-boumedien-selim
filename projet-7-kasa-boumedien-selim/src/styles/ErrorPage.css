@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h2.error_infos_title {
@@ -15,6 +17,7 @@ line-height: 142.6%;
 align-items: center;*/
 text-align: center;
 color: #FF6060;
+margin-bottom: inherit;
 }
 
 
@@ -27,6 +30,7 @@ font-size: 36px;
 line-height: 142.6%;
 display: flex;
 color: #FF6060;
+margin-bottom: 50%;
 }
 
 .return_home {
@@ -50,6 +54,13 @@ color: #FF6060;
   
   /* Mobile */
   @media screen and (max-width: 480px){
-  
+    h2.error_infos_title {
+        font-size: 200px;
+    }
+
+    p.infos_content {
+        margin-bottom: 50%;
+        text-align: center;
+    }
      
   }

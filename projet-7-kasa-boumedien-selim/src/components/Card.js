@@ -11,8 +11,6 @@ function Card({ location }) {
                 <img src={location.cover} alt="" />
                 <h3>{location.title}</h3>
 
-
-
             </div>
         </Link>
     )
