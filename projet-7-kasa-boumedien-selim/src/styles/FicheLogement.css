@@ -31,11 +31,13 @@
     align-items: flex-end;
     color: #FF6060;
 }
-
+.all_tags {
+    width: 100%;
+}
 .tags {
     background: #FF6060;
     border-radius: 5px;
-    margin: 3%;
+    margin-right: 2%;
     padding: 2%;
     font-family: 'Montserrat';
     font-style: normal;
