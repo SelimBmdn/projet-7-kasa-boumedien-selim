@@ -8,6 +8,7 @@ import Carrousel from '../components/Carrousel'
 import Collapse from '../components/Collapse';
 import greyStar from '../assets/grey_star.png';
 import redStar from '../assets/red_star.png';
+import { element } from 'prop-types'
 
 
 export default function Logement() {
@@ -36,8 +37,12 @@ export default function Logement() {
                     <p>{logement.location}</p>
 
 
-                    <div className='tags'>
-                        {logement.tags.join(" ")}
+                    <div className='all_tags'>
+                        {
+                        logement.tags.map((element) => {
+                            return(<span className='tags' key={"tags-"+element}>{element}</span>)
+                        })
+                        }
                     </div>
 
                 </div>

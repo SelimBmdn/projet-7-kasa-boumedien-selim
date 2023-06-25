@@ -12,15 +12,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 288px;
 line-height: 142.6%;
-/* or 411px */
-/*display: flex;
-align-items: center;*/
 text-align: center;
 color: #FF6060;
 margin-bottom: inherit;
 }
-
-
 
 p.infos_content {
     font-family: 'Montserrat';
@@ -40,7 +35,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 142.6%;
-/* identical to box height, or 26px */
 display: flex;
 align-items: flex-end;
 text-decoration-line: underline;
