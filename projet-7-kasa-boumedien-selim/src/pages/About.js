@@ -1,3 +1,4 @@
+// Import des fichiers CSS et des données nécessaires
 import '../styles/About.css'
 import Collapse from '../components/Collapse';
 import Header from '../components/Header'
@@ -5,7 +6,7 @@ import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 
 function About() {
-
+// Données pour les collapses
     const aboutDatas = [
         {
             "id": "1",
@@ -32,15 +33,18 @@ function About() {
 
     return (
         <div className='page_about_kasa'>
+            {/* Inclusion du composant Header */}
             <Header />
             <Banner>
                 <div className='banner_about'></div>
             </Banner>
 
             <main className='about_main'>
+                {/* Boucle pour afficher chaque collapse */}
                 {aboutDatas.map(data => {
                     return (
                         <div key={data.id} className="about_main_collapse">
+                {/* Inclusion du composant Collapse avec les données correspondantes */}
                             <Collapse title={data.title} content={data.content} />
                         </div>
                     )
@@ -48,6 +52,7 @@ function About() {
                 )
                 }
             </main>
+             {/* Inclusion du composant Footer */}
             <Footer />
         </div>
     )

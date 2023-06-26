@@ -14,15 +14,12 @@
     width: 65%;
 }
 
-  /* Tablette */
-  @media screen and (max-width: 768px){
+/* Tablette */
+@media screen and (max-width: 768px) {}
 
-  } 
-  
-  /* Mobile */
-  @media screen and (max-width: 480px){
+/* Mobile */
+@media screen and (max-width: 480px) {
     .about_main {
         width: 90%;
-    
-  } 
+    }
 }

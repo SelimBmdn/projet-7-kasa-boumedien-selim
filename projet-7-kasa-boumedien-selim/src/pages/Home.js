@@ -1,3 +1,4 @@
+// Import des fichiers CSS et des données nécessaires
 import '../styles/Home.css'
 //import '../styles/normalize.css'
 import Header from '../components/Header'
@@ -9,11 +10,15 @@ import "../styles/Banner.css"
 export default function Home() {
 	return (
 		<div className='home'>
+			 {/* Inclusion du composant Header */}
 			<Header />
+			{/* Inclusion du composant Banner */}
 			<Banner>
 				<div className='banner'></div>
 			</Banner>
-			<All_cards />           
+			 {/* Inclusion du composant All_cards */}
+			<All_cards />  
+			{/* Inclusion du composant Footer */}         
 			<Footer />
 		</div>
 	)

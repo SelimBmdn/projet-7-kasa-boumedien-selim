@@ -1,5 +1,5 @@
-.all_cards{
-    
+.all_cards {
+
     height: 829px;
     width: 100%;
     margin-top: 5%;
@@ -15,12 +15,10 @@
 }
 
 /* Tablette */
-@media screen and (max-width: 768px){
-
-} 
+@media screen and (max-width: 768px) {}
 
 /* Mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
     .all_cards {
         background: none;

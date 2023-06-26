@@ -1,8 +1,7 @@
 /* Banner*/
 
-.banner
-{
-    
+.banner {
+
     border-radius: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/img-banner-home.png');
     background-position: center;
@@ -11,9 +10,9 @@
     padding: 20px;
     width: 100%;
 }
-.banner_about
-     {
-    
+
+.banner_about {
+
     border-radius: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/about_cover.png');
     background-position: center;
@@ -24,35 +23,27 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    }
+}
 
-    p {
-        color: white;
-        font-size : clamp(20px, 4vw, 48px);
-        font-weight : 500;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-
-
+p {
+    color: white;
+    font-size: clamp(20px, 4vw, 48px);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /* Tablette */
-@media screen and (max-width: 768px){
-
-} 
+@media screen and (max-width: 768px) {}
 
 /* Mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .banner {
         width: 335px;
         border-radius: 10px;
         height: 111px;
     }
 
-    .banner p {
-
-
-    }
-} ;
+    .banner p {}
+}

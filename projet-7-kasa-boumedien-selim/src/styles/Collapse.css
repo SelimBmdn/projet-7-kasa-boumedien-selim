@@ -13,7 +13,6 @@
     padding-left: 2%;
     padding-right: 3%;
     margin-bottom: inherit;
-
 }
 
 .collapse_content {
@@ -27,9 +26,7 @@
     line-height: 142.6%;
     /* or 34px */
     color: #FF6060;
-    
 }
-
 
 .collapse_title {
     cursor: pointer;
@@ -69,7 +66,6 @@
     flex-direction: column;
     align-items: center;
   }
-   
 }
 
  

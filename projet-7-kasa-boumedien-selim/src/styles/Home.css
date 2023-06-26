@@ -6,9 +6,7 @@
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
-    
 } 
-
 
 body {
     margin: 0 auto;
@@ -23,5 +21,4 @@ body {
   /* Mobile */
   @media screen and (max-width: 480px){
   
-     
   }

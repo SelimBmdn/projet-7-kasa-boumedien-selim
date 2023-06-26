@@ -1,77 +1,75 @@
 .cover {
-    position: relative;
-  }
-  
-  .cover_img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
-  
-  .allArrow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-   /* max-width: 600px;*/
-  }
-  
-  .arrowLeft, .arrowRight {
-    width: 30px;
-    height: 50px;
-  }
-  
-  .arrowLeft {
-    margin-right: auto;
-  }
-  
-  .arrowRight {
-    margin-left: auto;
-  }
+  position: relative;
+}
 
-  .carousel {
-    position: relative;
-  }
+.cover_img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
 
-  .carousel-slide-item img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 25px;
-    height: 415px;
-  }
+.allArrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* max-width: 600px;*/
+}
 
-  .carousel-controls {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    position: absolute;
-    top: 40%;
-    height: 15%;
+.arrowLeft,
+.arrowRight {
+  width: 30px;
+  height: 50px;
+}
 
-  }
+.arrowLeft {
+  margin-right: auto;
+}
 
-  .carousel-controls img {
-    height: 100%;
-  }
-  /* Tablette */
-@media screen and (max-width: 768px){
+.arrowRight {
+  margin-left: auto;
+}
 
-} 
+.carousel {
+  position: relative;
+}
+
+.carousel-slide-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  height: 415px;
+}
+
+.carousel-controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+  height: 15%;
+
+}
+
+.carousel-controls img {
+  height: 100%;
+}
+
+/* Tablette */
+@media screen and (max-width: 768px) {}
 
 /* Mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
   .carousel-slide-item img {
-    
+
     object-fit: cover;
     border-radius: 10px;
     height: 255px;
-}
-
-   
+  }
 }
