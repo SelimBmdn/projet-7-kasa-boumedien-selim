@@ -4,19 +4,13 @@ import Navbar from '../components/Navbar'
 
 function Header () {
 
-    return ( 
-
-        
+    return (   
         <header className='kasa-header'>
             <h1>
                 <img src={logo} alt='Logo du site Kasa' />
             </h1>
-           <Navbar />
-            
-        </header> 
-
-        
+           <Navbar />          
+        </header>   
     )
 }
-
 export default Header

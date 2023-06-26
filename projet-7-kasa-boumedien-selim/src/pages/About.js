@@ -48,8 +48,6 @@ function About() {
                 )
                 }
             </main>
-
-
             <Footer />
         </div>
     )

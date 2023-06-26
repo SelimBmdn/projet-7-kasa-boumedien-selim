@@ -21,7 +21,6 @@ export default function Logement() {
             break
         }
     }
-
     if (!logement) {
         return <Navigate to="/404" />
     }
@@ -39,9 +38,9 @@ export default function Logement() {
 
                     <div className='all_tags'>
                         {
-                        logement.tags.map((element) => {
-                            return(<span className='tags' key={"tags-"+element}>{element}</span>)
-                        })
+                            logement.tags.map((element) => {
+                                return (<span className='tags' key={"tags-" + element}>{element}</span>)
+                            })
                         }
                     </div>
 

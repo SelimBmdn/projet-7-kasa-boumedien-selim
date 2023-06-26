@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar () {
 
-    return ( 
-        
+    return (    
             <ul className='nav_list'>
                 <li className='btn-home'>
                     <Link to='/Home'>
@@ -16,10 +15,7 @@ function Navbar () {
                     A propos
                     </Link>
                 </li>
-
             </ul>
-
-       
     )
 }
 

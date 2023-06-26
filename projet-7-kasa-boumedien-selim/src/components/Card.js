@@ -1,6 +1,5 @@
 import '../styles/Card.css'
 import { Link } from "react-router-dom"
-/*import datas from '../datas/data'*/
 
 function Card({ location }) {
 
@@ -14,7 +13,6 @@ function Card({ location }) {
             </div>
         </Link>
     )
-
 }
 
 export default Card

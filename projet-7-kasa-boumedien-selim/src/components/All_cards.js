@@ -13,5 +13,4 @@ function All_cards() {
         </div>
     )
 }
-
 export default All_cards
