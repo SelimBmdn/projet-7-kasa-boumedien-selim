@@ -10,9 +10,9 @@ function Banner() {
 	const location = useLocation();
 
 	useEffect(() => {
-		if (location.pathname === '/about') {
+		if (location.pathname === '/About') {
 			setAboutPage(true)
-		};
+		}
 		// eslint-disable-next-line
 	}, [])
 

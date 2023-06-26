@@ -13,12 +13,17 @@
 }
 .banner_about
      {
-        border-radius: 25px;
-        height: 100%;
-        width: 90%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/about_cover.png');
-        background-position: center;
-        background-size: cover;       
+    
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/about_cover.png');
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     }
 
     p {

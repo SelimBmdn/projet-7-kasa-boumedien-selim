@@ -20,7 +20,7 @@ function Collapse({ title, content }) {
         {content}
       </div>
     </div>
-  );
+  )
 }
 
 export default Collapse;

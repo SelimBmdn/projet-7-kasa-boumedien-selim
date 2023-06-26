@@ -33,7 +33,10 @@ function About() {
     return (
         <div className='page_about_kasa'>
             <Header />
-            <Banner />
+            <Banner>
+                <div className='banner_about'></div>
+            </Banner>
+
             <main className='about_main'>
                 {aboutDatas.map(data => {
                     return (
