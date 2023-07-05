@@ -9,7 +9,7 @@ import Carrousel from '../components/Carrousel'
 import Collapse from '../components/Collapse';
 import greyStar from '../assets/grey_star.png';
 import redStar from '../assets/red_star.png';
-import { element } from 'prop-types'
+//import { element } from 'prop-types'
 
 
 export default function Logement() {
@@ -68,11 +68,8 @@ export default function Logement() {
                                 <img key={index} src={ratingValue <= logement.rating ? redStar : greyStar} alt="star" />
                             )
                         })}
-
-
                     </div>
                 </div>
-
             </div>
 
             <div className='allCollapse'>

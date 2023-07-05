@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 
 
 function Banner() {
-  // Utilisation de l'état local pour suivre si la page "About" est active
+	// Utilisation de l'état local pour suivre si la page "About" est active
 	const [aboutPage, setAboutPage] = useState(false);
-  // Utilisation du hook useLocation pour obtenir l'objet location de la route actuelle
+	// Utilisation du hook useLocation pour obtenir l'objet location de la route actuelle
 	const location = useLocation();
 
 	useEffect(() => {
